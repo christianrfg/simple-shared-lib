@@ -2,12 +2,12 @@
 
 	--INTRUÇÕES DE UTILIZAÇÃO DAS BIBLIOTECAS--
 	
-	Opção 1:
+	*Opção 1:
 		- Utilizar o comando sudo make no terminal do Linux e inserir a
 	senha, assim a lib já será movida para a pasta /usr/lib.
 
 
-	Opção 2:
+	*Opção 2:
 		- Utilizar o comando make no terminal do Linux para gerar a
 	biblioteca compartilhada (.so).
 		- Para utilizar a biblioteca desejada basta copiar ou mover o arquivo
@@ -59,7 +59,15 @@ frase comum, é como um bilhete de ida-e-volta. "Ana", por exemplo, é um nome p
 
 	--EXEMPLO DE USO--
 
-	O arquivo Main.c apresenta um exemplo simples do uso de cada lib
+	O arquivo program.c apresenta um exemplo simples do uso de cada lib
 disponibilizada (sendo que as libs estão no caminho default de libs do ubuntu 16.04).
+	- Utilizar o comando:
+		gcc -o program program.c -L. -lfuncoes
+	Para criar o executavel do programa e assim execula-lo usando o comando:
+		./program
+	- Opcional:
+		Executar o programa que já esta compilado no diretorio, somente
+	usar o comando:
+		./program
 
 ====================================================================================
