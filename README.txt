@@ -2,13 +2,17 @@
 
 	--INTRUÇÕES DE UTILIZAÇÃO DAS BIBLIOTECAS--
 	
-	- Utilizar o comando make no terminal do Linux para gerar a biblioteca
-compartilhada (.so).
-	  Utilizar o comando make clean para remover os arquivos .o e .d
+	Opção 1:
+		- Utilizar o comando sudo make no terminal do Linux e inserir a
+	senha, assim a lib já será movida para a pasta /usr/lib.
 
-	- Para utilizar a biblioteca desejada basta copiar ou mover o arquivo
-para a pasta de bibliotecas especificas do computador ou adicionar o local
-desejado à várivel LD_LIBRARY_PATH.
+
+	Opção 2:
+		- Utilizar o comando make no terminal do Linux para gerar a
+	biblioteca compartilhada (.so).
+		- Para utilizar a biblioteca desejada basta copiar ou mover o arquivo
+	para a pasta de bibliotecas especificas do computador ou adicionar o local
+	desejado à várivel LD_LIBRARY_PATH.
 	
 	1) Para copiar para pasta de bibliotecas do Linux usar o comando:
 		sudo cp libfuncoes.so /usr/lib
@@ -17,9 +21,12 @@ desejado à várivel LD_LIBRARY_PATH.
 		i) echo $LD_LIBRARY_PATH
 		ii) Se nada aparecer faça: LD_LIBRARY_PATH = /usr/local/lib
 		iii) Adicionando o novo diretorio: LD_LIBRARY_PATH =
-$LD_LIBRARY_PATH:/diretorio/desejado/
+	$LD_LIBRARY_PATH:/diretorio/desejado/
 		iv) export LD_LIBRARY_PATH
-
+	
+	
+	Opcional:
+		- Utilizar o comando make clean para remover os arquivos .o e .d
 ====================================================================================
 
 	--BIBLIOTECA COMPARTILHADA--
