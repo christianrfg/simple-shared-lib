@@ -12,17 +12,13 @@
 	biblioteca compartilhada (.so).
 		- Para utilizar a biblioteca desejada basta copiar ou mover o arquivo
 	para a pasta de bibliotecas especificas do computador ou adicionar o local
-	desejado à várivel LD_LIBRARY_PATH.
+	da váriavel DIR_DEST dentro do arquivo Makefile.
 	
 	1) Para copiar para pasta de bibliotecas do Linux usar o comando:
-		sudo cp libfuncoes.so /usr/lib
+		sudo cp libfuncoes.so /usr/lib.
 
 	2) Para adicionar o local desejado deve-se fazer:
-		i) echo $LD_LIBRARY_PATH
-		ii) Se nada aparecer faça: LD_LIBRARY_PATH = /usr/local/lib
-		iii) Adicionando o novo diretorio: LD_LIBRARY_PATH =
-	$LD_LIBRARY_PATH:/diretorio/desejado/
-		iv) export LD_LIBRARY_PATH
+		Basta alterar o local da variavel DIR_DEST do arquivo Makefile.
 	
 	
 	Opcional:
