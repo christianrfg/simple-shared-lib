@@ -5,6 +5,7 @@
 	*Opção 1:
 		- Utilizar o comando sudo make no terminal do Linux e inserir a
 	senha, assim a lib já será movida para a pasta /usr/lib.
+		- Assim a lib ja estara pronta para uso.
 
 
 	*Opção 2:
