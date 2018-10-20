@@ -2,11 +2,11 @@
 
 This repository is a simple example of how to create and use shared libraries.
 
-### Prerequisites
+## Prerequisites
 
 * [Ubuntu 16.04](https://www.ubuntu.com/download/desktop) - LTS or newer version
 
-### Installing
+## Installing
 
 * To use the **sudo make** command to create the shared library on your system.
 
@@ -39,6 +39,6 @@ The output will be the simple usage of the shared librarys created.
 
 ## Authors
 
-* **Christian R. F. Gomes** - [christianrfg](https://github.com/christianrfg)
+* **Christian Gomes** - [christianrfg](https://github.com/christianrfg)
 
 See also the list of [contributors](https://github.com/christianrfg/simple-shared-lib/graphs/contributors) who participated in this project.
